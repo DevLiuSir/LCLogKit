@@ -53,15 +53,8 @@ LCLogKit.error("错误信息")
 
 
 
-## 预览        
-
-```swift
-[🐞 DEBUG] [2021-02-08 14:49:12] AppDelegate.swift: [30] => 调试输出
-[ℹ️ INFO] [2021-02-08 14:49:12] AppDelegate.swift: [31] applicationDidFinishLaunching(_:) => 普通信息
-[⚠️ WARNING] [2021-02-08 14:49:12] AppDelegate.swift: [32] applicationDidFinishLaunching(_:) => 警告信息
-[❌ ERROR] [2021-02-08 14:49:12] AppDelegate.swift: [33] applicationDidFinishLaunching(_:) => 错误信息
-
-```
+## 预览
+![](./Design/preview_cn.png)
 
 
 
