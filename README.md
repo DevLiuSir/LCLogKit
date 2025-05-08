@@ -53,17 +53,8 @@ LCLogKit.error("Error occurred")
 
 
         
-## Preview        
-
-```swift
-[🐞 DEBUG] [2021-02-08 14:49:12] AppDelegate.swift: [30] => Debug output
-[ℹ️ INFO] [2021-02-08 14:49:12] AppDelegate.swift: [31] applicationDidFinishLaunching(_:) => General info
-[⚠️ WARNING] [2021-02-08 14:49:12] AppDelegate.swift: [32] applicationDidFinishLaunching(_:) => Warning message
-[❌ ERROR] [2021-02-08 14:49:12] AppDelegate.swift: [33] applicationDidFinishLaunching(_:) => Error occurred
-
-```
-
-
+## Preview
+![](./Design/preview_en.png)        
 
 
 
