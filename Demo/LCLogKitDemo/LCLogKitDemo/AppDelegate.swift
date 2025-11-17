@@ -16,6 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         LCLogKit.debug("调试输出", showFunction: false)
         LCLogKit.info("普通信息")
+        LCLogKit.success("成功信息")
         LCLogKit.warning("警告信息")
         LCLogKit.error("错误信息")
     }

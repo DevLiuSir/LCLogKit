@@ -17,6 +17,7 @@ import os
 enum DebugLogLevel: String {
     case debug = "🐞 DEBUG"
     case info = "ℹ️ INFO"
+    case success = "✅ SUCCESS"
     case warning = "⚠️ WARNING"
     case error = "❌ ERROR"
 }
@@ -58,6 +59,10 @@ final public class LCLogKit {
     
     public static func info(_ message: Any, showFunction: Bool = true, file: String = #file, function: String = #function, line: Int = #line) {
         shared.log(message, level: .info, showFunction: showFunction, file: file, function: function, line: line)
+    }
+    
+    public static func success(_ message: Any, showFunction: Bool = true, file: String = #file, function: String = #function, line: Int = #line) {
+        shared.log(message, level: .success, showFunction: showFunction, file: file, function: function, line: line)
     }
     
     public static func warning(_ message: Any, showFunction: Bool = true, file: String = #file, function: String = #function, line: Int = #line) {
